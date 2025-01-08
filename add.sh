@@ -14,4 +14,4 @@ sum=$((a+b))
 
 echo " Total = $sum"
 
-echo " code end"
+echo " Thank you"
