@@ -1,0 +1,77 @@
+#command for folling git and git hub
+
+
+1. 1st step we need to creete a ssh key
+
+using : ssh-keygen -t -rsa -b 4096 -C "@mail.com"
+
+next go the 
+
+cat id_rsa.pub
+
+key will display on terminal and copy it.
+
+next go the git hub portal and select the setting ---->SSH KEY -----> cREAT A NAME OF THE KEY -----> put the ssh-key and past it ---->add the key succesfully
+
+
+after that we need create resopsitory ----> name of repo----->go to code ( green box) -----> copy ssh address url 
+
+
+next to be go the terminal 
+
+git clone <ssh url>
+
+
+press the enter
+
+
+it done on clone to local repo 
+
+
+so adding the file and write some code on using vi or txt file whatver we want 
+
+
+so next to use 
+
+git init (inialization)
+git add <filename>
+
+git commit -m "test"
+
+git push --set-upstram or git push
+
+next to check in git hub file will be visible 
+
+
+and next to create a brach 
+
+we are creating branch for main file should not be modified we need create a new branch 
+
+
+git branch
+
+*main or *master 
+
+
+then we be done 
+
+
+git branch "dev01" -----> branch is created  
+
+git status -----> check the status brach create or not ?
+
+
+once branch created we switch the branch.
+
+
+git switch <branch name>
+
+
+once branch swithed afterthat whatever main brach file is availabe and all file copied  to created branch (new barnch)
+
+go to github check there brach is cretared or not ?
+
+
+so after created brach so we can write a code and we can ----->git add . ---->git commit -m "comment"------>git push----->after that ----->pull and and merged the file into main branch or master barch.
+
+
